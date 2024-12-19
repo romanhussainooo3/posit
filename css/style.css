@@ -1,0 +1,311 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+  font-size: 14px;
+  line-height: 1.7em;
+  font-family: "Poppins", serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins", serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+a:hover{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+.header{
+    padding: 10px 0px;
+    width: 100%;
+    background-color: #f0fff0;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin: 0px 10px;
+    font-family: "Poppins", serif;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(255, 242, 0);
+    color: rgb(4, 218, 22);
+}
+.header .navbar-expand-lg .navbar-nav .nav-item .btn-success{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 20px;
+    border-radius: 40px;
+    background-color: #21b573;
+    color: #ffff;
+    border-radius: 1px solid #5fbb5f;
+    margin: 0px 0px 0px 16px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-item .btn-success:hover{
+    cursor: pointer;
+    background-color: #d0c94a;
+    color: #ffff;
+    border-radius: 1px solid #5fbb5f;
+    transition: 1s;
+
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner .inerbanner{
+    margin: 40px 0px;
+}
+.banner .inerbanner h5{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: #fd511a;
+}
+.banner .inerbanner h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #000;
+}
+.banner .inerbanner h1 span{
+    color: #21b573;
+}
+.banner .inerbanner p{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.7em;
+}
+.banner .img{
+    text-align: right;
+}
+.banner .inerbanner .btn-success{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 25px;
+    border-radius: 40px;
+    background-color: #21b573;
+    color: #ffff;
+    border-radius: 1px solid #5fbb5f;
+}
+.banner .inerbanner .btn-success:hover{
+    cursor: pointer;
+    background-color: #d0c94a;
+    color: #ffff;
+    border-radius: 1px solid #5fbb5f;
+    transition: 1s;
+
+}
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature .inerfeature{
+    width: 100%;
+    padding: 65px 40px;
+    background-color: #f8fffb;
+    text-align: center;
+    border-radius: 10px;
+}
+.feature .color{
+    box-shadow: 0px 15px 30px #cfcfc5;
+}
+.feature .inerfeature:hover{
+    cursor: pointer;
+    box-shadow: 0px 15px 30px #cfcfc5;
+}
+.feature .inerfeature h5{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 27px 0px 0px;
+    line-height: 1.2em;
+}
+.feature .inerfeature p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+.feature .inerfeature img{
+    width: 66px;
+    height: 85px;
+}
+
+.online-courses{
+    width: 100%;
+    padding: 50px 0px;
+}
+.online-left{
+    text-align: center;
+    margin: 40px 0px;
+}
+.online-courses .online-left h1{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #000;
+} 
+.online-courses .card{
+    width: 100%;
+    padding: 20px 15px;
+    border-radius: 16px;
+    box-shadow: 0px 10px 30px #d7d6d6;
+}
+.online-courses .card img{
+    border-radius: 10px;
+    Height: 260px
+}
+.online-courses .card-body{
+    width: 100%;
+    padding: 20px 0px;
+}
+.online-courses .card-body h5{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    margin: 0px;
+}
+.online-courses .card-body p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em;
+}
+.online-courses .btn-success{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 25px;
+    border-radius: 40px;
+    background-color: #21b573;
+    color: #ffff;
+    border-radius: 1px solid #5fbb5f;
+}
+.online-courses .btn-success:hover{
+    cursor: pointer;
+    background-color: #d0c94a;
+    color: #ffff;
+    border-radius: 1px solid #5fbb5f;
+    transition: 1s;
+}
+.online-courses .infu{
+    font-size: 16px;
+    margin: 0px;
+}
+.online-courses .infu img{
+    width: 24px;
+    height: 24px;
+    margin: 0px 4px;
+}
+.text-right{
+   text-align: right;
+} 
+.testimonial{
+    width: 100%;
+    padding: 80px 0px;
+}
+.testimonial .title{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #000;
+    text-align: center;
+    margin: 0px 0px 25px;
+}
+.testimonial .shink{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+.testimonial .textrt{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    margin: 18px 0px 0px;
+}
+
+
+.footer {
+    width: 100%;
+    padding: 60px 0px 0px;
+    background-color: #282531;
+    margin: 0px;
+}
+.footer p{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #ffff;
+}
+.footer h5{
+    font-size: 20px;
+    font-weight: 600;
+    list-style: 1.2em;
+    color: whie;
+    color: #ffff;
+}
+.footer .navbar-nav{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #ffff;
+}
+.footer .fotter-end p{
+    font-size: 16px;
+    padding: 40px 0px 0px;
+    text-align: center;
+}
+@media (Min-width:320px) and (max-width:480px){
+    .container{
+        width: 90%;
+        margin: 0px  auto;
+    }
+    .banner{
+        padding: 0px;
+        text-align: center;
+    }
+    .feature{
+        padding: 0px;
+    }
+    .testimonial{
+        padding: 0px;
+    }
+    .banner .inerbanner h5{
+        font-size: 19px;
+    }
+    .banner .inerbanner h1{
+        font-size: 30px;
+    }
+    .banner .inerbanner p{
+        font-size: 13px;
+    }
+    .footer .fotter-end p{
+        font-size: 16px;
+    }
+    .online-courses .online-left h1 {
+        font-size: 30px;
+      
+    }
+    .online-courses .card-body h5 {
+        font-size: 20px;
+    }
+    .online-courses .card-body p {
+        font-size: 16px;
+    }
+    .online-courses .infu {
+        font-size: 14px;
+    }
+    .testimonial .title {
+        font-size: 30px;
+    }
+    .footer p{
+        font-size: 13px;
+    }
+}
